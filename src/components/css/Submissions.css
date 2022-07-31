@@ -1,0 +1,18 @@
+.sub_Section {
+  width: 100%;
+  /* gap: 16px; */
+  font-size: 14px;
+}
+
+.sub_dateSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sub_separator {
+  position: relative;
+  flex-shrink: 0;
+  /* align-self: stretch; */
+  background-color: #dee2e6;
+  height: 1px;
+}
