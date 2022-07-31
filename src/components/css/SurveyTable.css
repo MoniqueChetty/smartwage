@@ -1,0 +1,13 @@
+.table__header {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 50px;
+  grid-template-rows: 80px auto 80px;
+  column-gap: 10px;
+  row-gap: 15px; */
+
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid #ccc;
+  width: 100%;
+  text-align: left;
+  padding-left: 30px;
+}

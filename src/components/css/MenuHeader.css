@@ -1,0 +1,28 @@
+.menu__icon,
+.menu__smartwage {
+  position: relative;
+  flex-shrink: 0;
+}
+.menu__icon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.menu__smartwage {
+  letter-spacing: 0.16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 145px;
+}
+.menu__header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+}

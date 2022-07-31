@@ -1,0 +1,220 @@
+.dashboard {
+  flex: 1;
+  position: relative;
+  line-height: 13.8px;
+  display: inline-block;
+}
+.menu-item-1 {
+  align-self: stretch;
+  border-radius: 4px;
+  flex-direction: row;
+  padding: 8px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.div,
+.menu-item-1,
+.menu-item-3 {
+  display: flex;
+  align-items: center;
+}
+.menu-item-3 {
+  align-self: stretch;
+  border-radius: 4px;
+  background: linear-gradient(rgba(98, 93, 245, 0.1), rgba(98, 93, 245, 0.1)),
+    #fff;
+  flex-direction: row;
+  padding: 8px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.div {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  letter-spacing: -1px;
+  line-height: 10.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  justify-content: center;
+  width: 16px;
+}
+.notofication-circle {
+  position: relative;
+  border-radius: 32px;
+  background-color: #625df5;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+.main-menu,
+.separator {
+  align-self: stretch;
+  display: none;
+}
+.main-menu {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.separator {
+  position: relative;
+  background-color: #dee2e6;
+  height: 1px;
+  flex-shrink: 0;
+}
+.filters {
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 16px;
+  display: inline-block;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div1 {
+  position: relative;
+  line-height: 155%;
+  font-weight: 600;
+  display: none;
+}
+.asterisk {
+  display: none;
+  flex-direction: column;
+  padding: 0 0 4px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #f03e3e;
+  font-family: Open Sans;
+}
+.this-is-a-description {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.16px;
+  display: inline-block;
+}
+.description,
+.heading-section {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description {
+  display: none;
+  flex-direction: row;
+  font-size: 10px;
+}
+.heading-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 12px;
+  box-sizing: border-box;
+  gap: 4px;
+}
+.ellipse-icon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.ellipse-icon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 3px;
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.radio-button-active,
+.radio-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.radio-button-active {
+  align-items: center;
+  position: relative;
+}
+.radio-button {
+  padding: 6px 4px;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.all-announcements {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 16px;
+  display: inline-block;
+}
+.frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.ellipse-icon3 {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  display: none;
+}
+.filters1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 16px 8px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  color: #495057;
+}
+.alert-circle-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.error {
+  align-self: stretch;
+  border-radius: 4px;
+  background: linear-gradient(rgba(240, 62, 62, 0.1), rgba(240, 62, 62, 0.1)),
+    #fff;
+  display: none;
+  flex-direction: row;
+  padding: 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: center;
+  color: #f03e3e;
+}
+.radio-button-section,
+.top-section {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.radio-button-section {
+  overflow: hidden;
+  display: none;
+  color: #868e96;
+}
