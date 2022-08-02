@@ -50,6 +50,7 @@ function Rightside(props: DataAtomProps) {
 
 export default Rightside;
 
+// Fetch Request option
 // useEffect(() => {
 //   const getSurveydata = async () => {
 //     const res = await fetch(`http://localhost:3006/survey?_page=1&_limit=10`);
@@ -60,6 +61,7 @@ export default Rightside;
 //   getSurveydata();
 // }, []);
 
+// Get Request option
 // Retrieve data from API
 // const retrieveSurveysdata = async () => {
 //   const response = api.get("/survey");
