@@ -1,0 +1,45 @@
+.table__footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.table__footerRowsPerPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.content6,
+.table__footer {
+  gap: 24px;
+}
+.table__footer {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+  gap: 12px;
+  font-size: 12px;
+}
+.table__dropdownmenu {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 30px;
+}
+.table__listtop {
+  list-style: none;
+  cursor: pointer;
+}
+.table__listbottom {
+  list-style: none;
+  visibility: hidden;
+}
+.table__listbottomvisible {
+  list-style: none;
+  visibility: visible;
+  cursor: pointer;
+}

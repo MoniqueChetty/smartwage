@@ -1,0 +1,80 @@
+.table__setting {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0px 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.table__header,
+.table__data {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  height: 51.9px;
+  border-radius: 8px;
+  max-width: 80vw;
+  padding: 4px 8px 4px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.table__datacolgray {
+  background: #f7f7f8;
+}
+.table__datacolwhite {
+  background: #ffffff;
+}
+.table__content {
+  /* font-family: "Roboto"; */
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.16px;
+  color: #495057;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.table__content2 {
+  /* font-family: "Roboto"; */
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.16px;
+  color: #868e96;
+  padding: 4px 8px 4px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+}
+.table__chips {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px 6px;
+  height: 22px;
+
+  border-radius: 32px;
+}
+.table__chipsgreen {
+  width: 45px;
+  background: rgba(32, 201, 151, 0.3);
+}
+.table__chipsred {
+  width: 59px;
+  background: linear-gradient(
+      0deg,
+      rgba(240, 62, 62, 0.3),
+      rgba(240, 62, 62, 0.3)
+    ),
+    #ffffff;
+}
